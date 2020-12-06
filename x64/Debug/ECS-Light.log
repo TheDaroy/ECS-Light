@@ -1,0 +1,12 @@
+﻿  CollisionSystem.cpp
+  ComponentList.cpp
+  ComponentManager.cpp
+  EntityManager.cpp
+  GraphicsSystem.cpp
+  Main.cpp
+  MainManager.cpp
+  MovementSystem.cpp
+  ShootingSystem.cpp
+  SystemManager.cpp
+  Generating Code...
+  ECS-Light.vcxproj -> C:\Users\theda\Desktop\Projects\C++\ECS-Light\x64\Debug\ECS-Light.exe
