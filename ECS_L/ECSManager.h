@@ -35,7 +35,10 @@ namespace ECS_L
 		{
 			return entityManager->GetNewEntity();
 		}
-
+		void DestroyEntity(Entity entity)
+		{
+			entityManager->DestroyEntity(entity);
+		}
 		template<typename T>
 		void AddComponentToEntity(Entity entity)
 		{

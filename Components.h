@@ -5,3 +5,6 @@
 #include "TransformComponent.h"
 #include "WeaponComponent.h"
 #include "BoxCollider.h"
+#include "ProjectileComponent.h"
+#include "PlayerComponent.h"
+#include "EnemyComponent.h"
