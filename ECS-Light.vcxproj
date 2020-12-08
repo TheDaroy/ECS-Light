@@ -160,7 +160,6 @@
     <ClInclude Include="BoxCollider.h" />
     <ClInclude Include="CircleCollider.h" />
     <ClInclude Include="CollisionData.h" />
-    <ClInclude Include="CollisionIterator.h" />
     <ClInclude Include="CollisionLayer.h" />
     <ClInclude Include="CollisionSettings.h" />
     <ClInclude Include="Components.h" />
@@ -181,7 +180,6 @@
     <ClInclude Include="ProjectileComponent.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="ResourceManager.h" />
-    <ClInclude Include="OnCollisionFunctions.h" />
     <ClInclude Include="Timer.h" />
     <ClInclude Include="TransformComponent.h" />
     <ClInclude Include="Vector2.h" />

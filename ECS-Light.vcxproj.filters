@@ -102,12 +102,6 @@
     <ClInclude Include="CollisionSettings.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="OnCollisionFunctions.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="CollisionIterator.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="CollisionData.h">
       <Filter>Header Files</Filter>
     </ClInclude>

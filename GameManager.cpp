@@ -17,6 +17,7 @@ void GameManager::Setup()
 	SetCollisionLayers();
 	CreatePlayer();
 	CreateEnemy();
+	
 }
 
 void GameManager::RegisterComponents()
@@ -85,7 +86,7 @@ void GameManager::Update()
 
 void GameManager::LateUpdate()
 {
-	Systems::Collision::Update(ecsManager.get(),resourceManager.get(),collisionLayerManager->GetCollisionDataArray());
+	//Systems::Collision::Update(ecsManager.get(),resourceManager.get(),collisionLayerManager->GetCollisionDataArray());
 	Systems::Graphics::Update(ecsManager.get(),resourceManager.get());
 }
 
@@ -138,7 +139,7 @@ Entity GameManager::CreatePlayer()
 	boxComp.layer = 0;
 	boxComp.size.x = 100;
 	boxComp.size.y = 100;
-	//boxComp.onCorrectCollision = ECS_L::Systems::Collision::OnCollision::DestroyEntity;
+	
 	
 	PlayerComponent& playerComp = ecsManager->GetComponent<PlayerComponent>(player);
 	playerComp.MoveSpeed = 0.5f;
